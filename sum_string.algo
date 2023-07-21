@@ -6,10 +6,10 @@ BEGIN
     initialize char_sum, word_sum = 0;
     Read(imput_string)
     iteration: 
-    for (i = 0; i < length(imput_string); i++)
-    For every CHAR in imput_string if CHAR != " "
-    return char_sum++;
+    FOR  i FROM 0  TO length(imput_string) DO;
+    IF imput_string if CHAR != " "
+    Write char_sum++;
     if CHAR === "."
-    return char_sum;
+    Write char_sum;
 
 END
