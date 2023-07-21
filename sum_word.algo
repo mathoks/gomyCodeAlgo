@@ -1,0 +1,14 @@
+ALGORITHM word_count
+VAR
+    word_count : INTEGER;
+    imput_string: STRING;
+    delimiter: CHAR;
+BEGIN
+    initialize:
+    word_count:= 0;
+    delimiter = " "
+    Read (imput_string)
+    imput_string.split(delimiter);
+    Write word_count := (imput_string.split(delimiter).length) 
+    
+END

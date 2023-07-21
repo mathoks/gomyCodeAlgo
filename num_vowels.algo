@@ -1,0 +1,12 @@
+ALGORITHM num_vowels
+VAR
+    num_vowels, i : INTEGER
+    imput_string: STRING
+    vowels: STRING
+BEGIN
+    initialize:  num_vowels := 0;
+    initialize vowels = ["a", "e", "i", "o", "u"]
+    Read (imput_string)
+    if (vowels.includes(imput_string)) 
+    Write num_vowels++; 
+END

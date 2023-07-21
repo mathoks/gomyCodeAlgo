@@ -1,0 +1,15 @@
+ALGORITHM sum_char_string
+VAR
+    char_sum, word_sum : INTEGER;
+    imput_string: STRING;
+BEGIN
+    initialize char_sum, word_sum = 0;
+    Read(imput_string)
+    iteration: 
+    for (i = 0; i < length(imput_string); i++)
+    For every CHAR in imput_string if CHAR != " "
+    return char_sum++;
+    if CHAR === "."
+    return char_sum;
+
+END
