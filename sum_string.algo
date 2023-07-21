@@ -6,7 +6,7 @@ BEGIN
     initialize char_sum, word_sum = 0;
     Read(imput_string)
     iteration: 
-    FOR  i FROM 0  TO length(imput_string) DO;
+    FOR  i FROM 0  TO length(imput_string) STEP 1 DO;
     IF imput_string if CHAR != " "
     Write char_sum++;
     if CHAR === "."
